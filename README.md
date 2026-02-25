@@ -14,6 +14,28 @@ Built to demonstrate practical, job-ready skills for SOC / Security Analyst role
 
 ---
 
+## ☁️ AWS OIDC Federation (GitHub → AWS)
+
+Implemented secure CI/CD authentication using OpenID Connect (OIDC) between GitHub Actions and AWS.
+
+**What was built:**
+- GitHub OIDC identity provider in AWS IAM
+- IAM role with trust policy restricted to this repository
+- Role assumption via `sts:AssumeRoleWithWebIdentity`
+- No static access keys stored
+
+**Security Controls Demonstrated:**
+- Least-privilege IAM role
+- Short-lived temporary credentials (STS)
+- Keyless CI/CD authentication
+- Federated identity trust validation
+
+**Proof of implementation:**
+- Successful `aws sts get-caller-identity` call from GitHub Actions
+- Assumed role: `GitHubActions-SecurityPortfolio`
+
+---
+
 ## 📁 Repository Structure
 
 | Folder | What’s inside | Skills shown |
