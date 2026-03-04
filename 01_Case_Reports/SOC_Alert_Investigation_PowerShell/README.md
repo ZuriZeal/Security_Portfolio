@@ -7,6 +7,15 @@ Encoded PowerShell commands are frequently used by attackers to hide malicious a
 
 ---
 
+## Evidence Collected
+
+The following artifacts were collected during the investigation:
+
+- `alert_log.txt` – raw SIEM alert log
+- `decoded_command.txt` – decoded PowerShell command used during execution
+
+---
+
 ## Investigation Steps
 
 ### 1. Alert Review
