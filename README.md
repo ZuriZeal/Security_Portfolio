@@ -3,6 +3,15 @@
 Hands-on cybersecurity portfolio showcasing **phishing investigations, incident response documentation, SIEM monitoring labs, and automation scripts**.  
 Built to demonstrate practical, job-ready skills for SOC / Security Analyst roles.
 
+## Security Portfolio Projects
+
+| Project | Category | Skills Demonstrated | Tools |
+|--------|--------|--------|--------|
+| AWS CloudWatch Log Monitoring | Cloud Security | Log analysis, alerting | AWS CloudWatch |
+| Linux Auditd Monitoring | Host Security | System auditing, log analysis | Linux, auditd |
+| Dependabot Security Review | DevSecOps | Dependency security, CI/CD review | GitHub, Dependabot |
+| SOC Incident Report | Incident Response | Investigation documentation | Security reporting |
+
 ---
 
 ## 🚀 Highlights
