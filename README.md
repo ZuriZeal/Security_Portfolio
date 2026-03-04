@@ -22,6 +22,20 @@ Built to demonstrate practical, job-ready skills for SOC / Security Analyst role
 - ✅ Clean Git workflow and repo hygiene (.gitignore, repeatable structure)
 
 ---
+
+## Security Skills Matrix
+
+| Domain | Skills |
+|------|------|
+| Blue Team / SOC | Log analysis, alert triage, incident documentation |
+| Cloud Security | AWS CloudWatch monitoring, IAM policy review |
+| Host Security | Linux auditing, system monitoring |
+| DevSecOps | CI/CD pipeline review, Dependabot configuration |
+| Investigation | Phishing analysis, artifact preservation |
+| Automation | Bash, Python, PowerShell scripting |
+
+---
+
 ## 🔐 AWS OIDC Federation (GitHub → AWS)
 
 Implemented secure CI/CD authentication using OpenID Connect (OIDC) between GitHub Actions and AWS.
@@ -114,11 +128,38 @@ Mirrors SOC jump-host hardening practices
 
 ---
 
-## 🛠️ Tools Used
-- **macOS Terminal**, Git/GitHub
-- **VirtualBox** (lab environments)
-- **Wazuh / Splunk (learning + practice)**
-- Basic OSINT + safe link handling (in isolated environments)
+## Tools & Technologies
+
+### Cloud & Infrastructure
+- AWS CloudWatch
+- AWS IAM
+- AWS OIDC Federation
+
+### SIEM & Security Monitoring
+- Wazuh
+- Splunk
+- Linux auditd
+
+### DevSecOps & Version Control
+- GitHub
+- GitHub Actions
+- Dependabot
+
+### Investigation & Threat Analysis
+- Email header analysis
+- OSINT techniques
+- Artifact collection and evidence preservation
+- VirusTotal (basic hash / URL reputation checks)
+
+### Scripting & Automation
+- Bash
+- Python
+- PowerShell
+
+### Development & Lab Environment
+- Visual Studio Code
+- macOS Terminal
+- VirtualBox / VMware (lab environments)
 
 ---
 
