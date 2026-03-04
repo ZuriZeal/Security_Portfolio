@@ -1,0 +1,8 @@
+Alert Name: Suspicious PowerShell Encoded Command
+
+Timestamp: 2026-03-04 13:22:17
+Host: WIN-WS01
+User: j.smith
+Process: powershell.exe
+Command Line:
+powershell.exe -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcA
