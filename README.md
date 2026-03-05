@@ -1,5 +1,14 @@
 # 🛡️ Security Portfolio — SOC / Blue Team Practice
 
+## Portfolio Navigation
+
+- [Security Portfolio Projects](#security-portfolio-projects)
+- [Highlights](#highlights)
+- [Security Skills Matrix](#security-skills-matrix)
+- [Featured Work](#featured-work)
+- [Tools Used](#tools-used)
+- [Notes on Safety & Privacy](#notes-on-safety--privacy)
+
 Hands-on cybersecurity portfolio showcasing **phishing investigations, incident response documentation, SIEM monitoring labs, and automation scripts**.  
 Built to demonstrate practical, job-ready skills for SOC / Security Analyst roles.
 
@@ -160,6 +169,32 @@ Mirrors SOC jump-host hardening practices
 - Visual Studio Code
 - macOS Terminal
 - VirtualBox / VMware (lab environments)
+
+---
+
+## Security Investigation Methodology
+
+The investigations in this portfolio follow a structured SOC analysis workflow:
+
+1. **Alert Triage**
+   - Review SIEM alerts and identify suspicious activity indicators.
+
+2. **Evidence Collection**
+   - Preserve relevant logs, artifacts, and decoded commands.
+
+3. **Behavior Analysis**
+   - Analyze commands, network activity, and authentication patterns.
+
+4. **Threat Context**
+   - Compare findings with known attacker techniques and behaviors.
+
+5. **Conclusion**
+   - Determine whether the activity is malicious, suspicious, or benign.
+
+6. **Recommended Response**
+   - Document containment and remediation steps.
+
+This approach mirrors common **SOC investigation workflows used in enterprise security teams.**
 
 ---
 
