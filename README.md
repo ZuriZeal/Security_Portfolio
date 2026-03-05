@@ -101,7 +101,6 @@ cat ~/.bash_history
 
 No such file or directory
 
-
 Security Impact
 
 Prevents accidental AWS credential exposure
